@@ -1,0 +1,43 @@
+.addcatform{
+    background-color: black;
+    
+}
+.addcattitle{
+    color: goldenrod;
+    text-align: center;
+}
+.addcatlabel{
+    color: azure;
+    font-size: 18px;
+}
+
+input[type="text"]
+{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 18px;
+}
+
+.addbtn{
+    width: 100%;
+    background-color: goldenrod;
+    color: azure;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.addbtn:hover,
+.addbtn:focus {
+    background-color: black;
+    color: #ffffff;
+}

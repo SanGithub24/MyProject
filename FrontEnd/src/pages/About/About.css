@@ -1,0 +1,77 @@
+.d-block {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.textsection {
+    text-align: center;
+    color: azure;
+}
+
+.imgmiddle,
+.openl,
+.openr {
+    width: 300px;
+    height: 420px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    z-index: 100px;
+}
+
+.paraone,
+.paratwo {
+    border: 6px solid whitesmoke;
+    padding: 40px;
+}
+
+.opentext {
+    border: 10px solid whitesmoke;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding: 60px;
+}
+
+.dinein {
+    width: 600px;
+    height: 500x;
+    z-index: 500px;
+    --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+    --m: left var(--_i, 0%) top var(--_g), bottom var(--_i, 0%) left var(--_g), top var(--_i, 0%) right var(--_g), right var(--_i, 0%) bottom var(--_g);
+    -webkit-mask: var(--m);
+    mask: var(--m);
+    filter: grayscale();
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+.dinein:hover {
+    --_i: 10%;
+    filter: grayscale(0);
+}
+
+.dinetext,
+.pickup {
+    border: 20px solid whitesmoke;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.pickimg {
+    width: 600px;
+    height: 250px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    z-index: 500px;
+    transition: all 0.6s;
+}

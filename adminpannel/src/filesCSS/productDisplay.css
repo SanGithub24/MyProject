@@ -1,0 +1,72 @@
+.titlepro{
+    font-size: 5rem;
+    font-family: inherit;
+    letter-spacing: inherit;
+    color: goldenrod;
+    text-align: center;
+    padding: 10;
+}
+
+.styled-table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    background-color: transparent;
+    color: goldenrod;
+}
+
+.styled-table thead tr{
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+}
+
+.styled-table th{
+    padding: 5px 15px;
+}
+.styled-table td{
+    padding: 2px 5px;
+}
+
+.styled-table tbody tr{
+    border-bottom: 1px solid transparent;
+}
+
+.styled-table tbody tr:nth-of-type(even){
+    background-color:transparent;
+}
+
+.styled-table tbody tr:last-of-type{
+    border-bottom: 2px solid goldenrod;
+}
+
+.btndisplay{
+    display: flex;
+}
+
+.btn{
+    border: none;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn_view{
+    background-color: rgb(236, 122, 29);
+}
+
+.btn_edit{
+    background-color: rgba(38, 231, 31, 0.753);
+}
+
+.btn_delete{
+    background-color: rgba(255, 26, 26, 0.89);
+}
+

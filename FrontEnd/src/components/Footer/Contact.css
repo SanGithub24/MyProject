@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+.footer {
+    background: rgb(107, 58, 74);
+    background: linear-gradient(90deg, rgba(107, 58, 74, 1) 15%, rgba(187, 51, 70, 0.8183648459383753) 47%, rgba(133, 104, 103, 1) 83%);
+    top: auto;
+    bottom: 0;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    width: 100%;
+    padding-block: 20px;
+}
+
+.socialmedia p {
+    display: flex;
+    gap: 1.8rem;
+    font-size: 1.3rem;
+    align-items: center;
+    padding: 1rem 32rem;
+}
+
+.logoimage {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-left: 4rem;
+}
+
+.middle {
+    width: 85%;
+    margin-left: 190px;
+    display: grid;
+    grid-template-columns: 1.4fr repeat(2, 1fr) 2fr;
+    gap: 4rem;
+    font-size: 18px;
+}
+
+.social {
+    color: azure;
+}
+
+.hh {
+    text-decoration: none;
+    color: azure;
+}
+
+.orderlinks {
+    text-decoration: none;
+    color: azure;
+}
+
+.orderlinks a:hover {
+    color: brown;
+}
+
+.footerabout {
+    color: azure;
+    padding: 1rem;
+}
+
+.footerabout a:hover {
+    color: brown;
+}
+
+.links {
+    text-decoration: none;
+    color: azure;
+}
+
+.contactdetails {
+    color: azure;
+}
+
+.copyright {
+    color: azure;
+    justify-content: center;
+    padding: 1rem 42rem;
+    letter-spacing: 2px;
+}
+
+.copyright a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 2000px) {
+    .footer {
+        width: 90%;
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .orderlinks {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .footerabout {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contactdetails {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .copyright,
+    .socialmedia p .middle,
+    .socialmedia,
+    .contactdetails,
+    .footerabout {
+        width: 90%;
+        grid-template-columns: 1fr 2fr;
+    }
+}

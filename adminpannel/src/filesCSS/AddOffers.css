@@ -1,0 +1,93 @@
+.addofferform{
+    background-color: black;
+    
+}
+.addoffertitle{
+    color: goldenrod;
+    text-align: center;
+}
+.addofferlabel{
+    color: azure;
+    font-size: 18px;
+}
+
+.error{
+  color: red;
+}
+
+input[type="file"],
+input[type="text"],
+select{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 18px;
+}
+
+.addbtn{
+    width: 100%;
+    background-color: goldenrod;
+    color: azure;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.addbtn:hover,
+.addbtn:focus {
+    background-color: black;
+    color: #ffffff;
+}
+
+.added-offers {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .card {
+    width: 350px;
+    height: 350px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .description {
+    margin-bottom: 10px;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 300px;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  

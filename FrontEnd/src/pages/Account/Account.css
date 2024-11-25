@@ -1,0 +1,42 @@
+.display{
+    display: grid;
+}
+
+.accountmain{
+    color: azure;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 400px;
+    height: 380px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: 4px solid whitesmoke;
+    text-align: center;
+}
+
+.imgleft{
+    width: 380px;
+    height: 380px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    z-index: 100px;
+}
+
+.imgright{
+
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 380px;
+    height: 380px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    z-index: 100px;
+}

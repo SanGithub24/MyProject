@@ -1,0 +1,50 @@
+.user-details{
+    background-color: black;
+    margin-top: 6rem;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 3rem;
+}
+.adddetailstitle{
+    color: goldenrod;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+.emplabel{
+    color: azure;
+    font-size: 18px;
+}
+
+input[type="text"]
+{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 18px;
+}
+
+.btnperson{
+    width: 100%;
+    background-color: goldenrod;
+    color: azure;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.addbtn:hover,
+.addbtn:focus {
+    background-color: black;
+    color: #ffffff;
+}

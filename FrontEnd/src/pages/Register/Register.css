@@ -1,0 +1,153 @@
+.regbg{
+    background-image: url('../../assets/images/BGImages/BackgroundReg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100rem;
+    height: 48rem;
+    margin-left: 3rem;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-size: cover;
+    z-index: -20;
+}
+
+.mainform {
+    color: azure;
+    margin-top: 0;
+    width: 32%;
+    height: 38rem;
+    margin-left: 10rem;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 4px solid whitesmoke;
+    text-align: center;
+    z-index: 10;
+    
+}
+
+.rowereg,
+.rowpreg,
+.fname {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 430px;
+    height: 25px;
+    border-bottom: 2px solid whitesmoke;
+    margin: 15px 35px;
+}
+
+.inputreg {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: azure;
+}
+
+.rowup a:hover {
+    text-decoration: underline;
+}
+
+.msg{
+  color: red;
+}
+
+.btn-btnreg {
+    width: 350px;
+    height: 40px;
+    align-items: center;
+    background-color: #bb3346;
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-btnreg:hover,
+.btn-btnreg:focus {
+    background-color: #6b4c3e;
+    color: #ffffff;
+}
+
+.tooltip {
+    position: relative;
+    background: green;
+    padding: 5px 12px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 100%;
+    color: #FFF;
+  }
+  
+  .tooltip:before,
+  .tooltip:after {
+    position: absolute;
+    content: '';
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+  
+  .tooltip:before {
+    border-width: 10px 8px 0 8px;
+    border-style: solid;
+    border-color: green transparent transparent transparent;
+    top: -15px;
+     transform: translateY(20px);
+  }
+  
+  .tooltip:after {
+    content: attr(data-tooltip);
+    background: green;
+    width: 160px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    top: -75px;
+    left: -10px;
+    padding: 10px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transform: translateY(20px);
+  }
+  
+  .tooltip:hover::before,
+  .tooltip:hover::after {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+  
+  @keyframes shake {
+    0% { 
+      transform: rotate(2deg);
+    }
+    50% {
+     transform: rotate(-3deg);
+    }
+    70% {
+      transform: rotate(3deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }

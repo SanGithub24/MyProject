@@ -1,0 +1,80 @@
+.gallery {
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.maintitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.simpleqt-l-one,
+.simpleqt-l-two {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.profile-img-list-item {
+  position: relative;
+}
+
+.profile-img-list-link {
+  display: block;
+  overflow: hidden;
+}
+
+.profile-img-list-link:hover img {
+  transform: scale(1.1);
+}
+
+.profile-img-list-link img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Optional: Add styling to the image container */
+.profile-img-list-link:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.profile-img-list-link:hover:before {
+  opacity: 1;
+}
+
+/* Optional: Add styling to the image caption */
+.profile-img-list-link:after {
+  content: attr(alt);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.profile-img-list-link:hover:after {
+  opacity: 1;
+}
